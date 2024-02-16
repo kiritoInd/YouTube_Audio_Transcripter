@@ -23,7 +23,7 @@ def download_youtube_audio_segments(video_url, output_path, segment_length=30 ):
             if os.path.exists(output_file):
                 os.remove(output_file)
                 print(f"Existing file {output_file} deleted.")
-
+                
         for i in range(num_segments):
             start_time = i * segment_length
             end_time = min((i + 1) * segment_length, total_duration)  # Ensure end time doesn't exceed audio duration
@@ -38,7 +38,16 @@ def download_youtube_audio_segments(video_url, output_path, segment_length=30 ):
             segment_clip.write_audiofile(output_file, codec='mp3')
 
             print(f"Segment {i+1} downloaded successfully!")
-            
+
+
+        start_time = num_segments * segment_length
+        end_time =  total_duration 
+        remaining_audio_clip = audio_clip.subclip(start_time, end_time)
+        remaining_audio_filename = os.path.join(output_path, f"audio{num_segments+1}.mp3")
+        remaining_audio_clip.write_audiofile(remaining_audio_filename, codec='mp3')
+
+        print(f"Segment {c+1} downloaded successfully!")
+
         return num_segments
 
 
