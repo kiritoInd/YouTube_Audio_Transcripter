@@ -2,6 +2,16 @@
 
 ---
 
+## Preview
+`Input in CSV (input all the links) `
+
+![Example Image](./images/view1.png.png)
+
+`Output in Csv`
+
+![Example Image](./images/view2.png.png)
+---
+
 ## Introduction
 
 This README provides an overview and instructions for using the provided Python script to transcribe audio segments using OpenAI's Whisper model. The script downloads audio segments from a YouTube video and transcribes them into text.
