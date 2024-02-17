@@ -5,11 +5,11 @@
 ## Preview
 `Input in CSV (input all the links) `
 
-![Example Image](./images/view1.png.png)
+![Example Image](./images/view2.png)
 
 `Output in Csv`
 
-![Example Image](./images/view2.png.png)
+![Example Image](./images/view1.png)
 ---
 
 ## Introduction
