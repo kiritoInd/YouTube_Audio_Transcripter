@@ -2,14 +2,28 @@
 
 ---
 
-## Preview
-`Input in CSV (input all the links) `
+## Steps
 
-![Example Image](./images/view2.png)
+`Clone the Repo`
 
-`Output in Csv`
+`run the Run.py`
 
-![Example Image](./images/view1.png)
+![Step 1](./images/st2.png)
+
+`Input a csv file with youtube links in rows`
+
+![Step 2](./images/st1.png)
+
+`Generate the subtitles`
+
+`Download the csv file after completed`
+
+![Step 3](./images/st3.png)
+
+`Ouput`
+
+![Output](./images/ot.png)
+
 ---
 
 ## Introduction
