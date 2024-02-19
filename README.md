@@ -8,7 +8,7 @@
 
 `run the Run.py`
 
-![Step 1](./images/st2.png)
+<img src="./images/st2.png" width="300" height="200">
 
 `Input a csv file with youtube links in rows`
 
